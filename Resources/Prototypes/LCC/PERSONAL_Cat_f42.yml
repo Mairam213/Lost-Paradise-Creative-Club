@@ -1,0 +1,12 @@
+- type: entity
+  name: Мавтёнок
+  parent: MobCat
+  id: LCCMobCatF42
+  description: Пушистенький и игривый кот, на шее висит ошейник с медальоном "МАВ".
+  components:
+  - type: Sprite
+    drawdepth: Mobs
+    sprite: Textures/Mobs/Pets/catf42.rsi
+    layers:
+    - map: ["enum.DamageStateVisualLayers.Base"]
+      state: cat
